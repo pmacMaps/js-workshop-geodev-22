@@ -105,3 +105,36 @@
 
 #### Sample Code 
 > TODO
+
+## Data Types | Lesson 4
+
+#### Boolean
+- Data type that can be either `true` or `false`
+- Commonly used in conditional statements and loops
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
+- ["Truthy" values](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
+- ["Falsy" values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+
+#### Null
+- the absence of any object value
+- expresses a lack of identification
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+
+#### Undefined
+- the value of a variable that has not been assigned a value
+- A function returns undefined if a value was not returned
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+
+#### Numeric
+- `Number` is a double-precision 64-bit binary format
+- `BigInt` can be used for large integers
+- Can perform math calculations with this data type
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)
+
+#### Strings
+- Represents textual data
+- In web maps, common data type for URLs associated with web service
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type)
+
+#### Sample Code 
+> TODO
