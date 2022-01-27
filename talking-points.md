@@ -24,7 +24,7 @@
 ## Writing Code in Visual Studio Code
 > TODO
 
-## The Webpage (HTML / CSS / JavaScript)
+## The Webpage (HTML / CSS / JavaScript) | Lesson 1
 
 #### HTML
 - HyperText Markup Language
@@ -46,3 +46,35 @@
 
 #### Sample Code 
 > TODO
+
+## Adding JavaScript to HTML File | Lesson 2
+#### `<script>` element
+- JavaScript code is written in this element
+- Purpose is to embed executable code or data
+- Can place directly within `html` file
+- Can load from an external source (same server or different server)
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+
+#### `console.log()` method
+- Prints a message to the web console
+- Can be used during development to view state of variables and data
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/console/log)
+- Related are `console.warn()` ([reference](https://developer.mozilla.org/en-US/docs/Web/API/console/warn)) and `console.error()` ([reference](https://developer.mozilla.org/en-US/docs/Web/API/console/error))
+
+### strict mode
+- Eliminates some silent errors by changing them to throw errors
+- Can be set to a script or function
+- Modules are automatically in strict mode
+- Please review the [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) for more info
+
+#### Production Code Concerns
+- Limit the number resources (CSS files, JavaScript files, images, etc.) that are loaded
+- Use minified versions of CSS and JavaScript files to reduce file size
+- Lazy load images, videos, iframes, etc.
+- Bundlers can help with this
+- All of this is beyond today's focus, but worth looking into on your own
+
+#### What if JavaScript is Disabled?
+- `<noscript>` element displays content if JavaScript is disabled ([MDN Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript))
+- One approach is to have a `no-js` class, and then use a library like modernizr to change the class to `js` if JavaScript is enabled.  You would have CSS rules for both scenarios
+- What about interactive web maps?  I would suggest having your `<noscript>` tag include a message about turning on JavaScript, and providing a link to a static version of your web maps purpose
