@@ -61,7 +61,7 @@
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/console/log)
 - Related are `console.warn()` ([reference](https://developer.mozilla.org/en-US/docs/Web/API/console/warn)) and `console.error()` ([reference](https://developer.mozilla.org/en-US/docs/Web/API/console/error))
 
-### strict mode
+#### strict mode
 - Eliminates some silent errors by changing them to throw errors
 - Can be set to a script or function
 - Modules are automatically in strict mode
@@ -78,3 +78,30 @@
 - `<noscript>` element displays content if JavaScript is disabled ([MDN Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript))
 - One approach is to have a `no-js` class, and then use a library like modernizr to change the class to `js` if JavaScript is enabled.  You would have CSS rules for both scenarios
 - What about interactive web maps?  I would suggest having your `<noscript>` tag include a message about turning on JavaScript, and providing a link to a static version of your web maps purpose
+
+#### Sample Code 
+> TODO
+
+## Variables | Lesson 3
+#### `const`
+- Best to use when you don't want value to change
+- Block-scoped
+- Cannot change the value through reassignment
+- Cannot re-declare variable
+- Cannot declare variable without value assignment
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+
+#### `let`
+- Best to used when you plan on the value to change
+- Block-scoped
+- Value can be changed through reassignment
+- Can declare variable without assigning a value
+
+#### Scope
+- Refers to current context of code execution
+- Context in which values and expressions can be referenced
+- Global scope vs. function scope
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+
+#### Sample Code 
+> TODO
