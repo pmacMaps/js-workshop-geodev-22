@@ -114,27 +114,44 @@
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)
 - ["Truthy" values](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
 - ["Falsy" values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+- example: `true` or `false`
 
 #### Null
 - the absence of any object value
 - expresses a lack of identification
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+- example: `null`
 
 #### Undefined
 - the value of a variable that has not been assigned a value
 - A function returns undefined if a value was not returned
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+- example: `undefined`
 
 #### Numeric
 - `Number` is a double-precision 64-bit binary format
 - `BigInt` can be used for large integers
 - Can perform math calculations with this data type
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)
+- example: `25`
 
 #### Strings
 - Represents textual data
 - In web maps, common data type for URLs associated with web service
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type)
+- example: `JavaScript rocks!`
+
+#### Arrays
+- list-like objects that can store data
+- can iteratore over or grab data from a specific index
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- example: `[ 'Broad Street Market', '1233 N 3rd St, Harrisburg, PA 17102', 40.26956, -76.8887 ]`
+
+#### Objects
+- collections of properties
+- data stored in key:value pairs
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects)
+- example: `{ name: 'Broad Street Market', address: '1233 N 3rd St, Harrisburg, PA 17102', latitude: 40.26956, longitude: -76.8887 }`
 
 #### Sample Code 
 > TODO
