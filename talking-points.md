@@ -166,3 +166,12 @@
 
 #### Sample Code 
 > TODO
+
+## Conditional & Switch Statements | Lesson 6
+#### Conditional Statements
+- controls flow of code
+- tests if a value is `true` or `false`
+- then runs code based upon the condition
+- TODO: true/false guide in JS
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- example: `if (values >= 12) { return 'green';} else { return 'red';}`
