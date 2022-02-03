@@ -15,8 +15,8 @@
 - Functions
 - Conditional & Switch Statements
 - Iterators
-- Modules
 - DOM Manipulation
+- Modules 
 - Asynchronous Data Fetching
 - Building a Basic App
 - ... Web Map? ...
@@ -152,6 +152,17 @@
 - data stored in key:value pairs
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects)
 - example: `{ name: 'Broad Street Market', address: '1233 N 3rd St, Harrisburg, PA 17102', latitude: 40.26956, longitude: -76.8887 }`
+
+#### Sample Code 
+> TODO
+
+## Functions | Lesson 5
+- typically takes an input, performs a task, and returns an output
+- a repeatable task in your app is a good candidate to become a function
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- example: `const reduceNumberDecimals = (data) => {
+    return data.toFixed(2);
+}`
 
 #### Sample Code 
 > TODO
