@@ -202,3 +202,25 @@
 - TODO: true/false guide in JS
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 - example: `if (values >= 12) { return 'green';} else { return 'red';}`
+
+#### Switch Statements
+- matches expression to a cause clause
+- can control no matching clause with `default` case
+- use `break` statement within each clause to exit out of switch statement
+- can be preferable to many if/else if clauses
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+- example: `switch(feature.properties.Name) {
+            case 'Boundary Trail':
+                lineColor = 'rgb(255,170,170)';
+                break;
+            case "Cat's Eye Trail":
+                lineColor = 'rgb(255,85,0)';
+                break;
+            case 'Cathedral Trail':
+                lineColor = 'rgb(0,92,230)';
+                break;
+            default:
+                lineColor = '#fff';}`              
+
+#### Sample Code 
+> TODO
