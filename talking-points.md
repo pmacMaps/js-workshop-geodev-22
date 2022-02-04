@@ -171,7 +171,34 @@
 #### Conditional Statements
 - controls flow of code
 - tests if a value is `true` or `false`
-- then runs code based upon the condition
+- **types of equality**
+- - Equal (`==`)
+- - - Returns true if the operands are equal
+- - Strict Equal (`===`)
+- - - Returns true if the operands are equal and of the same type
+- - Not Equal (`!=`)
+- - - Returns true if the operands are not equal
+- - Strict Not Equal (`!==`)
+- - - Returns true if the operands are of the same type but not equal, or are of different type
+- **logical operators**
+- - `&&` (AND)
+- - - `expr1 && expr2`
+- - - returns `true` if both operands are true; otherwise, returns `false`
+- - `||` (OR)
+- - - `expr1 || expr2`
+- - -  returns `true` if either operand is true; if both are false, returns `false`
+- - `!` (NOT)
+- - - `!expr`
+- - - Returns `false` if its single operand that can be converted to true; otherwise, returns `true`
+-  **arithmetic operators**
+- - `>` (greater than)
+- - - returns true if the left operand is greater than the right operand
+- - `>=` (greater than or equal to)
+- - - returns true if the left operand is greater than or equal to the right operand
+- - `<` (less than)
+- - - returns true if the left operand is less than the right operand
+- - `<=` (less than or equal to)
+- - - returns true if the left operand is less than or equal to the right operand
 - TODO: true/false guide in JS
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 - example: `if (values >= 12) { return 'green';} else { return 'red';}`
