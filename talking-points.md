@@ -224,3 +224,21 @@
 
 #### Sample Code 
 > TODO
+
+## Iterators | Lesson 7
+> TODO
+
+#### Sample Code 
+> TODO
+
+## DOM Manipulation | Lesson 8
+- Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document
+- Document is a logical tree, with each branch ending in a node, and each node containing objects
+- Nodes can have event handlers attached (i.e., when you click on a button)
+- Can gain access to HTML elements by tag name, class name, id, or combination
+- Can do things via JavaScript like change properties of elements, or run a function when an element is clicked
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- example: `document.getElementById('resultsContainer').style.display = 'block'` 
+
+#### Sample Code 
+> TODO
