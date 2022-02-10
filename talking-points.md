@@ -242,3 +242,15 @@
 
 #### Sample Code 
 > TODO
+
+## Modules | Lesson 9
+- Allow for JavaScript code to be distributed among various files
+- Code is easier to maintain, and modules can be reused across apps
+- When using modules, type script tag in html file as `<script type="module" src=""></script>`
+- You can make code available in other modules by using `export` keyword
+- You can use code from other modules by using `import` keyword
+- [MDN Reference] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- example: `import { setInitialMapZoom } from './functions.js'; export const initZoom = setInitialMapZoom(windowWidth);`
+
+#### Sample Code 
+> TODO
