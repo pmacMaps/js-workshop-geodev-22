@@ -22,7 +22,9 @@
 - ... Web Map? ...
 
 ## Writing Code in Visual Studio Code
-> TODO
+- Free text editor from Microsoft
+- Contains many plugins to make writing code easier
+- [Download VS Code](https://code.visualstudio.com/)
 
 ## The Webpage (HTML / CSS / JavaScript) | Lesson 1
 
