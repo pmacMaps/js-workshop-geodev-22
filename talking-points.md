@@ -254,3 +254,17 @@
 
 #### Sample Code 
 > TODO
+
+## Asynchronous Data Fetching | Lesson 10
+- Websites/apps request data from other sources
+- These requests occur `asynchronous` (i.e., not sure when request will be completed)
+- `Promises` represent the eventual completion (or failure) of an asynchronous operation and its resulting value
+- `Promises` are a way to ensure code using requested data runs after the data is fetched
+- `promise.then()` takes two arguments: 1) callback function for resolved case; 2) callback function for rejected case
+- `promise.catch()` is a method for handling errors
+- `Promises` can be chained together
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- example: `getCurrentPosition().then((position) => {console.log(position); }).catch((err) => { console.error(err.message); });`
+
+#### Sample Code 
+> TODO
