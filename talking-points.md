@@ -294,3 +294,16 @@
 
 #### Sample Code 
 > [Lesson 10 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%2010)
+
+## Find Nearby Parks App
+- User will enter a search distance (units are miles)
+- When user clicks on the button, the following will happen:
+- - `Geolocation API` will be used to get user's coordinates in latitude and longitude 
+- - A geometry object using WGS 1984 will be created from user's location
+- - the `Esri Rest JS` library will be used to locate Local Parks that are within the specified distance from the user (as the crow flies)
+- - the returned features from the Esri REST service will be iterated over, and a table wil be generated with the attributes from the service
+- It's basically spatial analysis without a map
+- [Geolocatoin API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+- [ArcGIS Rest JS documentation](https://developers.arcgis.com/arcgis-rest-js/)
+- [Project Code](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Find%20Nearby%20Parks)
+- [DCNR Local Parks Rest Service](https://www.gis.dcnr.state.pa.us/agsprod/rest/services/BRC/LocalParks/MapServer/1)
