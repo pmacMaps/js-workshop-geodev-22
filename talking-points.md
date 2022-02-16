@@ -22,7 +22,9 @@
 - ... Web Map? ...
 
 ## Writing Code in Visual Studio Code
-> TODO
+- Free text editor from Microsoft
+- Contains many plugins to make writing code easier
+- [Download VS Code](https://code.visualstudio.com/)
 
 ## The Webpage (HTML / CSS / JavaScript) | Lesson 1
 
@@ -221,6 +223,74 @@
                 break;
             default:
                 lineColor = '#fff';}`              
+
+#### Sample Code 
+> TODO
+
+## Iterators and Loops | Lesson 7
+#### Cycling Through Data
+- Can cycle through a list of data and perform some operation
+- Can nest conditional statements within iterators to test for certain data values
+- `Arrays` can use the `forEach` method ([documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach))
+- - provides callback function once for each element in the array
+- - example: `mapServices.forEach(element => element.addTo(map));` (adds layers in an array to a web map)
+- `Objects` can use the `for...in` loop ([documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in))
+- - iterates over enumerable properties
+- - can access both keys and values
+- - example: `for (const property in object) { console.log('${property}: ${object[property]}'); }` (prints key and value of object)
+- `for...of` loop can be used on multiple iterable objects ([documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of))
+- - example: `for (const element of features) { let newRow = table.insertRow(-1); addRow(newRow, element.attributes.MUNI); addRow(newRow, Number(element.attributes.POP_2020).toLocaleString()); }` (adds row to table using data from a feature service)
+
+#### Other Topics
+- `while` loop runs its statements as long as the condition is true
+- - you can to avoid situations where the condition will always remain true (`infinite loop`)
+- - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement)
+- - example: `let n = 0; let x = 0; while (n < 3) { n++; x += n; }`
+- `do...while` loop is similar to `while` loop
+- - BUT, the statement is executed once before the condition is checked
+- - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#do...while_statement)
+- - example: `let i = 0; do { i += 1; console.log(i); } while (i < 5);`
+- `break` statement terminates a loop or switch statement ([MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#break_statement))
+- `continue` statement can be used to control flow within a loop ([MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#continue_statement))
+- - example: `let i = 0; while (i < 4) { i++; if (i === 3) {continue} console.log(i) }`
+
+#### Sample Code 
+> TODO
+
+## DOM Manipulation | Lesson 8
+- Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document
+- Document is a logical tree, with each branch ending in a node, and each node containing objects
+- Nodes can have event handlers attached (i.e., when you click on a button)
+- Can gain access to HTML elements by tag name, class name, id, or combination
+- Can do things via JavaScript like change properties of elements, or run a function when an element is clicked
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- example: `document.getElementById('resultsContainer').style.display = 'block'` 
+
+#### Sample Code 
+> TODO
+
+## Modules | Lesson 9
+- Allow for JavaScript code to be distributed among various files
+- Code is easier to maintain, and modules can be reused across apps
+- When using modules, type script tag in html file as `<script type="module" src=""></script>`
+- You can make code available in other modules by using `export` keyword
+- You can use code from other modules by using `import` keyword
+- [MDN Reference] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- example: `import { setInitialMapZoom } from './functions.js'; export const initZoom = setInitialMapZoom(windowWidth);`
+
+#### Sample Code 
+> TODO
+
+## Asynchronous Data Fetching | Lesson 10
+- Websites/apps request data from other sources
+- These requests occur `asynchronous` (i.e., not sure when request will be completed)
+- `Promises` represent the eventual completion (or failure) of an asynchronous operation and its resulting value
+- `Promises` are a way to ensure code using requested data runs after the data is fetched
+- `promise.then()` takes two arguments: 1) callback function for resolved case; 2) callback function for rejected case
+- `promise.catch()` is a method for handling errors
+- `Promises` can be chained together
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- example: `getCurrentPosition().then((position) => {console.log(position); }).catch((err) => { console.error(err.message); });`
 
 #### Sample Code 
 > TODO
