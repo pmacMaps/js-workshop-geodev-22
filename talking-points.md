@@ -227,8 +227,19 @@
 #### Sample Code 
 > TODO
 
-## Iterators | Lesson 7
-> TODO
+## Iterators and Loops | Lesson 7
+#### Cycling Through Data
+- Can cycle through a list of data and perform some operation
+- Can nest conditional statements within iterators to test for certain data values
+- `Arrays` can use the `forEach` method ([documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach))
+- - provides callback function once for each element in the array
+- - example: `mapServices.forEach(element => element.addTo(map));` (adds layers in an array to a web map)
+- `Objects` can use the `for...in` loop ([documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in))
+- - iterates over enumerable properties
+- - can access both keys and values
+- - example: `for (const property in object) { console.log('${property}: ${object[property]}'); }` (prints key and value of object)
+- `for...of` loop can be used on multiple iterable objects ([documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of))
+- - example: `for (const element of features) { let newRow = table.insertRow(-1); addRow(newRow, element.attributes.MUNI); addRow(newRow, Number(element.attributes.POP_2020).toLocaleString()); }` (adds row to table using data from a feature service)
 
 #### Sample Code 
 > TODO
