@@ -47,7 +47,7 @@
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 #### Sample Code 
-> TODO
+> [Lesson 1 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%201)
 
 ## Adding JavaScript to HTML File | Lesson 2
 #### `<script>` element
@@ -82,7 +82,7 @@
 - What about interactive web maps?  I would suggest having your `<noscript>` tag include a message about turning on JavaScript, and providing a link to a static version of your web maps purpose
 
 #### Sample Code 
-> TODO
+> [Lesson 2 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%202)
 
 ## Variables | Lesson 3
 #### `const`
@@ -106,7 +106,7 @@
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 
 #### Sample Code 
-> TODO
+> [Lesson 3 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%203)
 
 ## Data Types | Lesson 4
 
@@ -156,7 +156,7 @@
 - example: `{ name: 'Broad Street Market', address: '1233 N 3rd St, Harrisburg, PA 17102', latitude: 40.26956, longitude: -76.8887 }`
 
 #### Sample Code 
-> TODO
+> [Lesson 4 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%204)
 
 ## Functions | Lesson 5
 - typically takes an input, performs a task, and returns an output
@@ -167,7 +167,7 @@
 }`
 
 #### Sample Code 
-> TODO
+> [Lesson 5 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%205)
 
 ## Conditional & Switch Statements | Lesson 6
 #### Conditional Statements
@@ -225,7 +225,7 @@
                 lineColor = '#fff';}`              
 
 #### Sample Code 
-> TODO
+> [Lesson 6 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%206)
 
 ## Iterators and Loops | Lesson 7
 #### Cycling Through Data
@@ -267,7 +267,7 @@
 - example: `document.getElementById('resultsContainer').style.display = 'block'` 
 
 #### Sample Code 
-> TODO
+> [Lesson 8 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%208)
 
 ## Modules | Lesson 9
 - Allow for JavaScript code to be distributed among various files
@@ -279,7 +279,7 @@
 - example: `import { setInitialMapZoom } from './functions.js'; export const initZoom = setInitialMapZoom(windowWidth);`
 
 #### Sample Code 
-> TODO
+> [Lesson 9 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%209)
 
 ## Asynchronous Data Fetching | Lesson 10
 - Websites/apps request data from other sources
@@ -293,4 +293,4 @@
 - example: `getCurrentPosition().then((position) => {console.log(position); }).catch((err) => { console.error(err.message); });`
 
 #### Sample Code 
-> TODO
+> [Lesson 10 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%2010)
