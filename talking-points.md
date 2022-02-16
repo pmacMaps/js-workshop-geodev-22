@@ -241,6 +241,19 @@
 - `for...of` loop can be used on multiple iterable objects ([documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of))
 - - example: `for (const element of features) { let newRow = table.insertRow(-1); addRow(newRow, element.attributes.MUNI); addRow(newRow, Number(element.attributes.POP_2020).toLocaleString()); }` (adds row to table using data from a feature service)
 
+#### Other Topics
+- `while` loop runs its statements as long as the condition is true
+- - you can to avoid situations where the condition will always remain true (`infinite loop`)
+- - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement)
+- - example: `let n = 0; let x = 0; while (n < 3) { n++; x += n; }`
+- `do...while` loop is similar to `while` loop
+- - BUT, the statement is executed once before the condition is checked
+- - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#do...while_statement)
+- - example: `let i = 0; do { i += 1; console.log(i); } while (i < 5);`
+- `break` statement terminates a loop or switch statement ([MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#break_statement))
+- `continue` statement can be used to control flow within a loop ([MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#continue_statement))
+- - example: `let i = 0; while (i < 4) { i++; if (i === 3) {continue} console.log(i) }`
+
 #### Sample Code 
 > TODO
 
