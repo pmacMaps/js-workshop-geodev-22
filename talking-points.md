@@ -18,8 +18,8 @@
 - DOM Manipulation
 - Modules 
 - Asynchronous Data Fetching
-- Building a Basic App
-- ... Web Map? ...
+- Building an App: **Find Nearby Parks**
+- Building a Web Map App
 
 ## Writing Code in Visual Studio Code
 - Free text editor from Microsoft
@@ -295,7 +295,7 @@
 #### Sample Code 
 > [Lesson 10 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%2010)
 
-## Find Nearby Parks App
+## Building an App: Find Nearby Parks
 - User will enter a search distance (units are miles)
 - When user clicks on the button, the following will happen:
 - - `Geolocation API` will be used to get user's coordinates in latitude and longitude 
