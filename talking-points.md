@@ -255,7 +255,7 @@
 - - example: `let i = 0; while (i < 4) { i++; if (i === 3) {continue} console.log(i) }`
 
 #### Sample Code 
-> TODO
+> [Lesson 7 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%207)
 
 ## DOM Manipulation | Lesson 8
 - Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document
@@ -305,5 +305,5 @@
 - It's basically spatial analysis without a map
 - [Geolocatoin API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
 - [ArcGIS Rest JS documentation](https://developers.arcgis.com/arcgis-rest-js/)
-- [Project Code](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Find%20Nearby%20Parks)
 - [DCNR Local Parks Rest Service](https://www.gis.dcnr.state.pa.us/agsprod/rest/services/BRC/LocalParks/MapServer/1)
+- [Project Code](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Find%20Nearby%20Parks)
