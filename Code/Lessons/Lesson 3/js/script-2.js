@@ -1,3 +1,5 @@
+'use strict';
+
 // declare a variable using 'let'
 let food = 'taco';
 // print to console

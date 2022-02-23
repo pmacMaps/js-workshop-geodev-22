@@ -1,10 +1,12 @@
+'use strict';
+
 // declare variable using 'const'
 // within global scope
 const testName = 'John Smith';
 
 // function that takes a string and prints it to console
 const printText = (str) => {
-    // we are within the function scope    
+    // we are within the function scope
     const testName = 'Jane Doe';
     // print 'testName' in local (function) scope
     console.log(testName)

@@ -1,9 +1,12 @@
-// show multiple conditions being true
+'use strict';
+
+// function that validates an entered address
+// conditional statement requires multiple conditions to be true
 const validateAddress = (address, city, state, zip) => {
     // expect Pennsylvania as state
     const pa = 'PA';
     // mock-up of array containing zip codes in Pennsylvania
-    const zipcodes = ['15106', '17025', '18001', '15201'];    
+    const zipcodes = ['15106', '17025', '18001', '15201'];
     // test valid data entry
     if ((state.toLowerCase() === pa.toLowerCase()) && (zipcodes.includes(zip))) {
         console.log(`${address}, ${city}, ${state}, ${zip} is a valid address`);
@@ -12,11 +15,11 @@ const validateAddress = (address, city, state, zip) => {
         console.log('address is invalid!');
     }
 }
-// validate address
+// validate addresses
 validateAddress('3525 Liberty Ave', 'Pittsburgh', 'PA', '15201');
 validateAddress('123 Main Street', 'Some City', 'WI', '12345');
 
-// show either condition being true
+// conditional statement where either condition is tested
 const testBrowser = (browser) => {
     if (browser === 'IE' || browser === 'Opera') {
         console.log('your browser is unsupported');
@@ -25,7 +28,7 @@ const testBrowser = (browser) => {
 // call function
 testBrowser('IE'); // 'Opera'
 
-// show testing for not true
+// testing for condition not being true
 const getLoginStatus = (status) => {
     if (status !== 'logged-in') {
         console.log('Please sign in');

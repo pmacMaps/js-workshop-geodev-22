@@ -1,6 +1,10 @@
+'use strict';
+
+// function uses switch statement to set color of a hiking trail
 const setTrailColor = (name) => {
     // variable to contain color property
     let lineColor;
+    // use switch statement against name of trail
     switch(name) {
         case 'Boundary Trail':
             lineColor = 'rgb(255,170,170)';

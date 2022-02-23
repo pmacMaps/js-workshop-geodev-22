@@ -1,3 +1,5 @@
+'use strict';
+
 // get elements by tag name
 // get all 'section' elements
 const sectionEls = document.getElementsByTagName('section');
@@ -29,7 +31,7 @@ console.log(imgEl);
 // can execute JS code when a user clicks the button
 btnEl.addEventListener('click', () => {
     console.log('you clicked the button');
-    
+
     // if image is hidden show
     // if it is shown, hide it
     if (imgEl.style.display !== 'block') {

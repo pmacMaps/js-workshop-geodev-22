@@ -35,11 +35,11 @@ const searchForParks = (distance) => {
     // show UI element > results title and table
     document.getElementById('resultsContainer').style.display = 'block';
     // find parks located within a distance of user's location
-    queryFeatures(queryGeometry, distance);    
+    queryFeatures(queryGeometry, distance);
   })
   .catch((err) => {
     console.error(err.message);
-  });     
+  });
 };
 
 // wire up click event listener

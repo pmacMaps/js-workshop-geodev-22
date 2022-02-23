@@ -1,4 +1,6 @@
-// reduce numbe rof decimals to two
+'use strict';
+
+// reduce number of decimals to two
 const reduceNumberDecimals = (data, decimals) => {
     return data.toFixed(decimals);
 }

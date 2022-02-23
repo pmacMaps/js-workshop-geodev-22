@@ -1,3 +1,5 @@
+'use strict';
+
 // Set the initial map zoom level based upon viewport width
 // helps for map loading on desktop or mobile phone
 const setInitialMapZoom = (windowWidth) => {

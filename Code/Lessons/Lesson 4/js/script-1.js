@@ -1,3 +1,5 @@
+'use strict';
+
 // true boolean
 const truth = true;
 // false boolean
@@ -27,10 +29,12 @@ console.log(`I am currently in ${myCity}`);
 
 // array data
 const webmapLibs = ['Leaflet', 'Mapbox API', 'ArcGIS JS API', 'OpenLayers3', 'CesiumJS'];
+
 // generate random number
 const getRandomInt = (max) => {
     return Math.floor(Math.random() * max);
 }
+
 // print to console
 console.log(`my favorite web mapping library is ${webmapLibs[getRandomInt(webmapLibs.length)]}`);
 
@@ -45,9 +49,9 @@ const esri_topo = {
     "guid": null,
     "name": null,
     "title": "World Topographic Map",
-    "type": "Vector Tile Service",    
-    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer",   
-    "access": "public",    
+    "type": "Vector Tile Service",
+    "url": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer",
+    "access": "public",
     "commentsEnabled": true,
     "numComments": 11,
     "numRatings": 4,
