@@ -330,7 +330,10 @@
 > TODO
 
 ## Integrating Esri REST Services with Leaflet.js | Lesson 13
-> TODO
+- You can use Esri basemaps, map/feature services, geocoding, and other features of Esri REST API
+- Various [Esri plugins](https://esri.github.io/esri-leaflet/plugins/) available
+- Helpful [documentation site](https://esri.github.io/esri-leaflet/) includes API reference and examples
+- Some features require an API key (can obtain at [Esri Developers](https://developers.arcgis.com/) site)
 
 #### Sample Code 
 > TODO
