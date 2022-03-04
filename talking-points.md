@@ -309,7 +309,10 @@
 - [Project Code](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Find%20Nearby%20Parks)
 
 ## Creating a Basic Webmap with Leaflet.js | Lesson 11
-> TODO
+- [Leaflet.js](https://leafletjs.com/) is a popular, open-source JavaScript library for creating interactive web maps
+- Works across browsers and devices
+- Large ecoystem of plugins to extend functionality
+- Built in Ukraine
 
 #### Sample Code 
 > TODO
