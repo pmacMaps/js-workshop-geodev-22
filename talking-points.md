@@ -318,7 +318,13 @@
 > TODO
 
 ## Extending Webmaps with Plugins | Lesson 12
-> TODO
+- Plugins for almost anything ([plugins listings](https://leafletjs.com/SlavaUkraini/plugins.html))
+- Basemaps
+- Data formats for layers
+- Geocoding
+- Map controls
+- Printing
+- Data visualization
 
 #### Sample Code 
 > TODO
