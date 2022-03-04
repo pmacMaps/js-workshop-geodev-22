@@ -19,7 +19,7 @@
 - Modules 
 - Asynchronous Data Fetching
 - Building an App: **Find Nearby Parks**
-- Building a Web Map App
+- Building a Web Map App with Leaflet.js
 
 ## Writing Code in Visual Studio Code
 - Free text editor from Microsoft
@@ -98,6 +98,7 @@
 - Block-scoped
 - Value can be changed through reassignment
 - Can declare variable without assigning a value
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
 #### Scope
 - Refers to current context of code execution
@@ -201,7 +202,6 @@
 - - - returns true if the left operand is less than the right operand
 - - `<=` (less than or equal to)
 - - - returns true if the left operand is less than or equal to the right operand
-- TODO: true/false guide in JS
 - [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 - example: `if (values >= 12) { return 'green';} else { return 'red';}`
 
@@ -243,7 +243,7 @@
 
 #### Other Topics
 - `while` loop runs its statements as long as the condition is true
-- - you can to avoid situations where the condition will always remain true (`infinite loop`)
+- - you want to avoid situations where the condition will always remain true (`infinite loop`)
 - - [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#while_statement)
 - - example: `let n = 0; let x = 0; while (n < 3) { n++; x += n; }`
 - `do...while` loop is similar to `while` loop
@@ -275,7 +275,7 @@
 - When using modules, type script tag in html file as `<script type="module" src=""></script>`
 - You can make code available in other modules by using `export` keyword
 - You can use code from other modules by using `import` keyword
-- [MDN Reference] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 - example: `import { setInitialMapZoom } from './functions.js'; export const initZoom = setInitialMapZoom(windowWidth);`
 
 #### Sample Code 
@@ -315,7 +315,7 @@
 - Built in Ukraine
 
 #### Sample Code 
-> TODO
+> [Lesson 11 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%2011)
 
 ## Extending Webmaps with Plugins | Lesson 12
 - Plugins for almost anything ([plugins listings](https://leafletjs.com/SlavaUkraini/plugins.html))
@@ -327,7 +327,7 @@
 - Data visualization
 
 #### Sample Code 
-> TODO
+> [Lesson 12 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%2012)
 
 ## Integrating Esri REST Services with Leaflet.js | Lesson 13
 - You can use Esri basemaps, map/feature services, geocoding, and other features of Esri REST API
@@ -336,4 +336,4 @@
 - Some features require an API key (can obtain at [Esri Developers](https://developers.arcgis.com/) site)
 
 #### Sample Code 
-> TODO
+> [Lesson 13 Demo](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Lesson%2013)
