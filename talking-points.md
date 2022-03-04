@@ -307,3 +307,21 @@
 - [ArcGIS Rest JS documentation](https://developers.arcgis.com/arcgis-rest-js/)
 - [DCNR Local Parks Rest Service](https://www.gis.dcnr.state.pa.us/agsprod/rest/services/BRC/LocalParks/MapServer/1)
 - [Project Code](https://github.com/pmacMaps/js-workshop-geodev-22/tree/main/Code/Lessons/Find%20Nearby%20Parks)
+
+## Creating a Basic Webmap with Leaflet.js | Lesson 11
+> TODO
+
+#### Sample Code 
+> TODO
+
+## Extending Webmaps with Plugins | Lesson 12
+> TODO
+
+#### Sample Code 
+> TODO
+
+## Integrating Esri REST Services with Leaflet.js | Lesson 13
+> TODO
+
+#### Sample Code 
+> TODO
